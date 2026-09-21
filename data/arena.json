@@ -1,0 +1,28 @@
+{
+  "combats": [
+    {
+      "id": "1",
+      "title": "Galaxy S26 Ultra vs iPhone 17 Pro Max",
+      "description": "Qual oferece o conjunto mais interessante para uso diário e tecnologia?",
+      "category": "smartphones",
+      "sideA": {
+        "name": "Galaxy S26 Ultra",
+        "description": "Desempenho, câmera, tela e recursos de IA."
+      },
+      "sideB": {
+        "name": "iPhone 17 Pro Max",
+        "description": "Desempenho, câmera, vídeo e integração com o ecossistema Apple."
+      },
+      "votesA": 54,
+      "votesB": 14,
+      "status": "active",
+      "createdAt": "2026-09-15T00:00:00.000Z",
+      "endsAt": null,
+      "winner": null,
+      "updatedAt": "2026-09-18T14:26:43.806Z",
+      "voters": [
+        "0bbcd1e11696b8262d6dc80b09f044083d4dd740c63823e423a44103313b0b7b"
+      ]
+    }
+  ]
+}

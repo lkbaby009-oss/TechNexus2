@@ -1,0 +1,23 @@
+<!doctype html><html lang="pt"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TechNexus Admin</title><link rel="stylesheet" href="/styles.css"></head><body><main class="wrap admin"><header class="admin-head"><div><span class="eyebrow">TECHNEXUS</span><h1>Painel de controlo</h1></div><a href="/" class="btn small">Ver site</a></header><section id="login" class="panel"><h2>Acesso local</h2><p>Use a chave administrativa configurada no servidor.</p><input id="key" type="password" placeholder="Chave admin"><button id="loginBtn" class="btn primary">Entrar</button><p id="loginMsg" class="msg"></p></section><div id="dashboard" class="hidden"><section class="stats" id="stats"></section><section class="panel"><h2>Configuração do site</h2><div class="form-grid"><label>Nome<input id="name"></label><label>Tagline<input id="tagline"></label><label class="wide">Descrição<textarea id="description"></textarea></label><label>Smart Link<input id="smartLink" placeholder="https://..."></label><label>Telegram<input id="telegramUrl" placeholder="https://t.me/..."></label><label>Categoria em destaque<input id="featuredCategory" placeholder="IA"></label><label class="wide">Anúncio topo (HTML)<textarea id="adTop"></textarea></label><label class="wide">Anúncio meio (HTML)<textarea id="adMiddle"></textarea></label><label class="wide">Anúncio fundo (HTML)<textarea id="adBottom"></textarea></label></div><button id="saveSite" class="btn primary">Guardar configurações</button><span id="siteMsg" class="msg"></span></section><section class="panel"><h2>Criar / editar artigo</h2><input id="editId" type="hidden"><div class="form-grid"><label>Título<input id="title"></label><label>Categoria<input id="category" placeholder="IA"></label><label>Slug<input id="slug"></label><label>Tags<input id="tags" placeholder="IA, Ferramentas"></label><label class="wide">Resumo<textarea id="excerpt"></textarea></label><label class="wide">Conteúdo HTML<textarea id="content" placeholder="<p>Texto...</p>"></textarea></label></div><label class="check"><input id="featured" type="checkbox"> Destaque</label> <label class="check"><input id="published" type="checkbox" checked> Publicado</label><div class="actions"><button id="saveArticle" class="btn primary">Guardar artigo</button><button id="newArticle" class="btn">Novo</button></div><p id="articleMsg" class="msg"></p></section><section class="panel">
+<h2>⚔️ TechNexus Arena</h2>
+<p class="meta">Crie novos combates e acompanhe os combates existentes.</p>
+<div class="form-grid">
+<label>Título do combate<input id="arenaTitle" placeholder="Galaxy S26 Ultra vs iPhone 17 Pro Max"></label>
+<label>Categoria<input id="arenaCategory" placeholder="smartphones"></label>
+<label class="wide">Descrição<textarea id="arenaDescription" placeholder="Qual opção você escolheria?"></textarea></label>
+<label>Opção A<input id="arenaSideA" placeholder="Galaxy S26 Ultra"></label>
+<label>Opção B<input id="arenaSideB" placeholder="iPhone 17 Pro Max"></label>
+<label>Descrição A<textarea id="arenaSideADescription"></textarea></label>
+<label>Descrição B<textarea id="arenaSideBDescription"></textarea></label>
+<label>Data/hora de término<input id="arenaEndsAt" type="datetime-local"></label>
+</div>
+<div class="actions">
+<button id="createArena" class="btn primary">Criar combate</button>
+<button id="refreshArena" class="btn">Atualizar Arena</button>
+</div>
+<p id="arenaMsg" class="msg"></p>
+</section>
+<section class="panel">
+<h2>Combates existentes</h2>
+<div id="adminArena"></div>
+</section><section class="panel"><h2>Artigos</h2><div id="adminArticles"></div></section></div></main><script src="/admin.js"></script></body></html>

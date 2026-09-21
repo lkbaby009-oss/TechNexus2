@@ -1,0 +1,14 @@
+{
+  "name": "technexus-2",
+  "version": "2.0.0",
+  "private": true,
+  "description": "TechNexus 2.0 - portal de tecnologia, IA, gadgets, gaming e inovação",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.22.0",
+    "express": "^5.1.0"
+  }
+}

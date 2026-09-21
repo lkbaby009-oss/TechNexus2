@@ -1,0 +1,50 @@
+[
+  {
+    "id": "1",
+    "title": "As ferramentas de IA que vale a pena conhecer em 2026",
+    "slug": "ferramentas-ia-2026",
+    "category": "IA",
+    "excerpt": "Um guia direto para entender ferramentas de IA úteis para trabalho, estudo e criação..",
+    "content": "<p>A inteligência artificial está cada vez mais presente no dia a dia. Neste guia, reunimos critérios simples para escolher ferramentas de IA sem complicação.</p><h2>O que procurar</h2><p>Priorize utilidade, privacidade, qualidade, preço e facilidade de uso. O melhor serviço depende do seu objetivo.</p>",
+    "tags": [
+      "IA",
+      "Ferramentas",
+      "Produtividade"
+    ],
+    "featured": true,
+    "published": true,
+    "createdAt": "2026-09-20T14:31:15.406Z"
+  },
+  {
+    "id": "2",
+    "title": "Como escolher um smartphone sem cair em especificações inúteis",
+    "slug": "como-escolher-smartphone",
+    "category": "Smartphones",
+    "excerpt": "Processador, bateria, câmera, tela e atualizações: veja o que realmente importa.",
+    "content": "<p>Comprar um smartphone não precisa ser uma corrida por números. O ideal é comparar as especificações que fazem diferença para o seu uso.</p><h2>Comece pelo seu perfil</h2><p>Defina se o aparelho será usado para jogos, fotografia, trabalho, redes sociais ou um pouco de tudo.</p>",
+    "tags": [
+      "Smartphones",
+      "Guia",
+      "Compras"
+    ],
+    "featured": false,
+    "published": true,
+    "createdAt": "2026-09-20T14:30:33.904Z"
+  },
+  {
+    "id": "3",
+    "title": "CPU, GPU e RAM: o que realmente afeta o desempenho em jogos",
+    "slug": "cpu-gpu-ram-gaming",
+    "category": "Gaming",
+    "excerpt": "Entenda os componentes que mais influenciam desempenho, estabilidade e qualidade gráfica.",
+    "content": "<p>Desempenho em jogos é resultado do conjunto. CPU, GPU, memória, armazenamento e refrigeração trabalham juntos.</p><h2>GPU</h2><p>Em jogos com gráficos pesados, a GPU costuma ser o principal componente para renderização.</p>",
+    "tags": [
+      "Gaming",
+      "Hardware",
+      "PC"
+    ],
+    "featured": false,
+    "published": true,
+    "createdAt": "2026-08-27T10:00:00.000Z"
+  }
+]
