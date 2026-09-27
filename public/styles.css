@@ -248,3 +248,4 @@ body.light .ai-form textarea{background:#fff;border-color:#ddd}
     gap: 10px;
   }
 }
+.smart-section{padding-top:20px}.smart-card{border:1px solid #24506a;background:linear-gradient(145deg,#071827,#06111d);border-radius:25px;padding:34px;display:flex;align-items:center;justify-content:space-between;gap:30px}.smart-card h2{margin:8px 0 8px}.smart-card p{margin:0}.smart2{white-space:nowrap}@media(max-width:760px){.smart-card{display:block;padding:28px}.smart-card .btn{margin-top:22px;width:100%}}
